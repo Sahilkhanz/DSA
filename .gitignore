@@ -1,0 +1,25 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore all class files in any subfolder
+**/*.class
+
+# Ignore temporary files created by editors/IDE
+*.log
+*.out
+*.tmp
+*.swp
+
+# Ignore Eclipse/IntelliJ/VS Code project files (optional but useful)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Ignore build directories
+bin/
+out/
+build/
+target/

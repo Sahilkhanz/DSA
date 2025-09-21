@@ -1,0 +1,36 @@
+@echo off
+REM === Create folders ===
+mkdir "Easy Problems"
+mkdir "Medium and Hard Problems"
+
+REM === Easy Problems ===
+cd "Easy Problems"
+echo. > "P01_Subset Check.java"
+echo. > "P02_Union and Intersection of two Linked Lists.java"
+echo. > "P03_A pair with given sum.java"
+echo. > "P04_Two pair sum.java"
+echo. > "P05_Largest subarray with 0 sum.java"
+echo. > "P06_Distinct elements in K-size Window.java"
+echo. > "P07_Palindrome Substring Queries.java"
+echo. > "P08_Missing elements of a range.java"
+echo. > "P09_All subarrays with 0 sum.java"
+echo. > "P10_Symmetric Pairs.java"
+echo. > "P11_Duplicates within k distance.java"
+cd ..
+
+REM === Medium and Hard Problems ===
+cd "Medium and Hard Problems"
+echo. > "P01_Find Itinerary from a given list of tickets.java"
+echo. > "P02_Largest subarray with equal number of 0s and 1s.java"
+echo. > "P03_Count Subarrays with XOR.java"
+echo. > "P04_Longest Consecutive Subsequence.java"
+echo. > "P05_Pair Sum Divisible by K.java"
+echo. > "P06_Smallest Range from K Lists.java"
+echo. > "P07_Internal Working of HashMap in Java.java"
+echo. > "P08_Separate Chaining for Collision Handling.java"
+echo. > "P09_Hash Table with Chaining in Java.java"
+echo. > "P10_Open Addressing for Collision Handling.java"
+cd ..
+
+echo ✅ All Java files created successfully in your custom order!
+pause
