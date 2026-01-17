@@ -1,0 +1,4 @@
+we have to solve a problem in a 3 way 
+1. brute force approach
+2. better approach 
+3. Optimal approach 

@@ -104,3 +104,31 @@ for (Map.Entry<Integer, String> element : hm1.entrySet())
     System.out.println("Key: " + element.getKey() + " Value: " + element.getValue());
 
 ```
+
+
+## Time and Space Complexity
+
+HashMap provide constant time complexity for basic opertation.
+
+| Methods | Time Complexity | Space Complexity |
+|---------|-----------------|------------------|
+| Adding Elements in HashMap in HashMap | O(1) | O(N) |
+| Removing Elements in HashMap in HashMap | O(1) | O(N) |
+| Extracting Elements in HashMap in HashMap | O(1) | O(N) |
+
+## Synchronized HashMap
+HashMap is unsynchronized, meaning the multiple threads can access it at the same time. If at least one thread modifies it, you must synchronized externally (wrap with Collections.synchronizedAmp()), to prevent concurrent access issues.
+
+    Map m = Collections.synchronizedMap( new HasMap(...));
+
+Now the map is synchronized. Iterates of this class are fail-fast if any structure modification is done after the creation of the iterator, in any way except through the iterators, in any except through the iterators remove method. In a failure of an iterator, it will throw ConstructorModificationException.
+
+```
+HashMap is mainly the implementation of hashing.It is useful when we need efficient implmenetation of search, insert and delete operations. 
+```
+
+---
+
+## Methods of HashMap
+> K - The type of the keys in the map.
+> V - The type of values mapped in the map.

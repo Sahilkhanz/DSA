@@ -130,14 +130,14 @@ public class HashMapConstructor {
         hm1.put(5, "five");
         hm1.put(6, "six");
 
+        // remove
         hm1.remove(6);
-
+        // update 
         hm1.put(2, "twelve");
 
         //Iterate the map using for-each loop
-        for (Map.Entry<Integer, String> element : hm1.entrySet()) {
+        for (Map.Entry<Integer, String> element : hm1.entrySet()) 
             System.out.println("Key: " + element.getKey() + " Value: " + element.getValue());
-        }
 
     }
 
