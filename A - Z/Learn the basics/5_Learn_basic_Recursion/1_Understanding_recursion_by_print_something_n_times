@@ -1,0 +1,24 @@
+what is recursion?
+recursion is defined as the process which call itself directly or indirectly , by breaking it down into smaller sub problems until it reaches a base case that stops further calls and the corresponding function is called recusrive function
+
+what is stack overflow in recursion?
+whenever the recursion calls are executed, they're simultaneously stored in the secursion stack where they wait for the completion of the recursive function. A recursive function can only be computed if a base condition is fullfilled and the control returns to the parent function.
+But when there are no base condition given for particular recursive function, it gets called indefinitely which reults in a stack overflow i.e exceeding the memory limit of the recursion stack and hence the program terminates giving a segmentation fault error.
+
+Base conditon
+It is the conditon that is sriiten in a recursive function in order for it to get completed and not to run indefinately. after encountering the base condtion, the function terminated and returns back ti its parent funtion simultaneously.
+
+Recursive Tree
+A recursive tree is basically a representative form of recursion which depicts how function are called and returned as a seried of events happening consecutively. It is a pictorial description of the process of recursion.
+
+Advantaged of recursion
+simplified code
+natural reprenstation
+reduce code complexity
+useful in devide and conquer algorithms
+
+Disadvantages of recursion
+High memory usage
+Risk of stack overflow
+slower execution
+harder to debug
