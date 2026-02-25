@@ -1,0 +1,20 @@
+@echo off
+
+set name=%1
+set ext=%2
+
+if "%ext%"=="" set ext=cpp
+
+mkdir %name%
+cd %name%
+
+type nul > %name%.%ext%
+type nul > input.txt
+type nul > output.txt
+type nul > error.txt
+type nul > notes.txt
+type nul > edge_cases.txt
+
+code .
+
+cd ..
